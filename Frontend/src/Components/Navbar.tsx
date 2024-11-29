@@ -101,7 +101,7 @@ const Navbar = () => {
 			)}
 
 			<div
-				className={`lg:w-[20vw] md:w-[50vw] w-[90vw] ${
+				className={`lg:w-[20vw] z-[9999] md:w-[50vw] w-[90vw] ${
 					NavToggle ? "translate-x-0" : "-translate-x-[100vw]"
 				} duration-500 px-4 py-5 pt-20 h-full bg-white fixed top-0 left-0`}
 			>
