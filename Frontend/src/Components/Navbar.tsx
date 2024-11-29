@@ -19,10 +19,10 @@ const Navbar = () => {
 
 	return (
 		<div className="">
-			<div className="flex justify-between md:px-10 px-5 py-8 items-center max-w-[1540px] mx-auto">
-				<Link to={"/"}>
+			<div className="flex justify-between h-[85px] lg:h-[100px] md:px-10 px-5 py-8 items-center max-w-[1540px] mx-auto">
+				<Link className="overflow-y-hidden lg:h-[100px] h-[80px] " to={"/"}>
 					<img
-						className="lg:h-[80px] h-[50px] object-covr "
+						className="lg:h-[100px] w-full h-[90px] object-cover "
 						src={Logo}
 						alt=""
 					/>
